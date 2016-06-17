@@ -1,0 +1,18 @@
+/*!
+ * @file undefsupport.h
+ * @brief Remove support macros
+ * @author koturn
+ */
+#ifndef KOTLIB_COMPAT_DEFSUPPORT_H
+#undef KOTLIB_COMPAT_DEFSUPPORT_H
+
+
+#undef KOTLIB_COMPAT_GNUC_PREREQ
+#undef KOTLIB_COMPAT_CLANG_PREREQ
+#undef KOTLIB_COMPAT_IS_SUPPORT_C99
+#undef KOTLIB_COMPAT_IS_SUPPORT_C11
+#undef KOTLIB_COMPAT_IS_SUPPORT_CXX11
+#undef KOTLIB_COMPAT_IS_SUPPORT_CXX14
+
+
+#endif  // KOTLIB_COMPAT_DEFSUPPORT_H
