@@ -3,7 +3,7 @@
  * @brief Remove support macros
  * @author koturn
  */
-#ifndef KOTLIB_COMPAT_DEFSUPPORT_H
+#ifdef KOTLIB_COMPAT_DEFSUPPORT_H
 #undef KOTLIB_COMPAT_DEFSUPPORT_H
 
 
